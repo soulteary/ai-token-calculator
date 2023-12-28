@@ -1,6 +1,6 @@
-module f
+module github.com/soulteary/ai-token-calculator
 
-go 1.21.2
+go 1.21
 
 require (
 	github.com/gin-contrib/gzip v0.0.6

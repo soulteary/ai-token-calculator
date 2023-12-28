@@ -20,6 +20,7 @@ import (
 
 //go:embed public
 var staticFS embed.FS
+var Version string
 
 // Credit: https://github.com/gin-contrib/static/issues/19
 type embedFileSystem struct {
@@ -85,6 +86,9 @@ func main() {
 		}
 	}()
 	log.Println("github.com/soulteary/ai-token-calculator has started 🚀")
+	if Version != "" {
+		log.Printf("Version: %s\n", Version)
+	}
 
 	<-ctx.Done()
 
