@@ -1,8 +1,12 @@
 # AI 模型 Token 计算器
 
-一个可以验证和计算文本消耗 Token 的小工具，支持在浏览器中使用，汉化自 OpenAI Tokenizer。
+一个可以验证和计算文本消耗 Token 的小工具，支持在浏览器中使用，汉化自 [OpenAI Tokenizer](https://platform.openai.com/tokenizer)。
 
 [![](.github/atc.jpg)](https://github.com/soulteary/ai-token-calculator)
+
+## 页面预览
+
+![](.github/preview.png)
 
 ## 下载方式
 
