@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  web:
+    image: soulteary/ai-token-calculator:v1.0.0
+    ports:
+      - "8080:8080"
