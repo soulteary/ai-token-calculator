@@ -4,6 +4,9 @@ on:
   workflow_dispatch:
   push:
 
+env:
+  GO_VERSION: "1.21"
+
 jobs:
   CodeCov:
     runs-on: ubuntu-latest

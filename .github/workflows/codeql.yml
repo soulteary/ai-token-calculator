@@ -8,6 +8,9 @@ on:
   schedule:
     - cron: '0 0 * * *'
 
+env:
+  GO_VERSION: "1.21"
+
 jobs:
   analyze:
     name: Analyze
